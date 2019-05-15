@@ -36,7 +36,7 @@ class ViewController: UIViewController {
         
     }
 
-    @IBAction func increaseAgeButton(_ sender: UIButton) {
+    @IBAction func increaseAgeTapped(_ sender: UIButton) {
         
         learnerInstance?.increaseAge()
         updateUI()
