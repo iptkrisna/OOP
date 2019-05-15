@@ -46,8 +46,8 @@
                                     <action selector="increaseAgeButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wMl-6U-kJb"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dkB-sa-7rf">
-                                <rect key="frame" x="184" y="540" width="46" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dkB-sa-7rf" customClass="RoundedButton" customModule="LearnerOOP" customModuleProvider="target">
+                                <rect key="frame" x="57" y="540" width="300" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                             </button>
