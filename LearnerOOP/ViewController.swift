@@ -43,8 +43,13 @@ class ViewController: UIViewController {
         
         facilitatorInstance?.increaseAge()
         updateUI()
+        UIView.animate(withDuration: 3) {
+            <#code#>
+        }
         
     }
+    
+    
     
 }
 
